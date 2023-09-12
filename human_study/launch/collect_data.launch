@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- realsense node -->
+  <arg name="color_fps" default="60"/>
+  <arg name="color_width" default="640"/>
+  <arg name="color_height" default="360" />
+
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+      <arg name="color_fps" value="$(arg color_fps)"/>
+      <arg name="color_width" value="$(arg color_width)" />
+      <arg name="color_height" value="$(arg color_height)" />
+  </include>
+
+  <!-- marker node -->
+  <include file="$(find aruco_ros)/launch/double.launch" />
+
+  <!-- xela publisher script node -->
+  <node name="xela_publisher" pkg="data_collection_human_test" type="cal_xela_publisher.py"/>
+  
+  <node name="hand_imu_publisher" pkg="data_collection_human_test" type="IMUROS.py"/>
+  <node name="obj_imu_publisher" pkg="data_collection_human_test" type="IMUROS2.py"/>
+  <!-- <node name="data_collection_node" pkg="data_collection_human_test" type="data_sub.py"/> -->
+
+</launch>
