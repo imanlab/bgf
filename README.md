@@ -5,7 +5,7 @@ This repository provides code for experimentation and analysis of the paper titl
 
 We provde implementation of the following subset of methods described in the paper:
 
-- Human physiology study on Slip Control
+- Human physiology study on slip control
 - Robotic experiments on slip control using trajectory modulation
 - Tactile forward model offline training
 
@@ -43,7 +43,7 @@ The raw data of the human participants study presented in the paper can be downl
 
 The /robot_experiments directory includes the code for regenerating the implementation of the slip controller introduced in the paper. This ros package depends on *libfranka* library which is the low-level control software of franka Emika robotic arm.
 
-The low-level controller (C++) scripts executes recieves the calculated Cartesian trajectories from the MPC controller script through a ros message. Detailed descripton of how to use the codes in provided in the readme of the robot experiments folder.
+The low-level controller (C++) scripts recieves the commanded Cartesian trajectories from the MPC controller script through a ros message. Detailed descripton of how to use the codes is provided in the [readme of the robot experiments](/robot_experiments/README.md) folder.
 
 **Tactile Forward Model**
 
