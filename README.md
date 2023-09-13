@@ -95,3 +95,10 @@ The dependencies for this codebase can be installed in a conda environment:
     pip install -e . 
     pip install -r environment.yaml
 
+
+## Maintainers
+
+The following individuals are the project maintainers:
+
+- Kiyanoush Nazari (@knazari)
+- Amir Ghalamzan Esfahani (@aghalamzan)
