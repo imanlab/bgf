@@ -47,4 +47,4 @@ The low-level controller (C++) scripts recieves the commanded Cartesian trajecto
 
 **Tactile Forward Model**
 
-The /tactile_forward_model directory includes the code for trainig the forward model including Action Conditioned Tactile Prediction Model and Slip Classification Model.
+The /tactile_forward_model directory includes the code for trainig the forward model including Action Conditioned Tactile Prediction and Slip Classification Models. The [readme file in /tactile_forward_model](/tactile_forward_model/README.md) directory includes detailed instruction for running the code.

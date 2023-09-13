@@ -29,9 +29,9 @@ Participants who had this scoring system:
 ### 1. Tactile Sensor:
 Bring up the xela sensor with:
 
-- sudo slcand -o -s8 -t hw -S 3000000 /dev/ttyUSB0
-- sudo ifconfig slcan0 up
-- /etc/xela$ ./xela_server
+        sudo slcand -o -s8 -t hw -S 3000000 /dev/ttyUSB0
+        sudo ifconfig slcan0 up
+        /etc/xela$ ./xela_server
 
 ### 2. Upload the IMU programs to the Arduino:
 With the arduino software, use the upload button to upload the programs, it should flash on the corresponding arduino when uploading.
@@ -40,7 +40,8 @@ With the arduino software, use the upload button to upload the programs, it shou
 
 ### 3. Launch the data collection files and the callibration scripts for the IMU.
 This script launches all the scripts we will need. Including the callibration script for the IMU's
-- roslaunch data_collection_human_test collect_data.launch
+
+        roslaunch data_collection_human_test collect_data.launch
 
 ### 4. Callibrate the IMU.
 This process needs to be done for both the hand and the object IMU's
@@ -63,11 +64,14 @@ This process needs to be done for both the hand and the object IMU's
 - data_sub.py --> line 20 --> stage = familiarization = True / False
 
 ### 6. Collection process:
-- rosrun data_collection_human_test data_sub.py
+
+        rosrun data_collection_human_test data_sub.py
 
 To visualise the scores run one of these:
-- ~/catkin_ws/src/data_collection_human_test/src$ python3 trial_score_baseline.py
-- ~/catkin_ws/src/data_collection_human_test/src$ python3 trial_score_controlled.py
+
+        /human_study/src$ python3 trial_score_baseline.py
+        /human_study/src$ python3 trial_score_controlled.py
 
 To evaluate the data for a trial run:
-- ~/catkin_ws/src/data_collection_human_test/src$ python3 trial_plot.py
+
+        /human_study/src$ python3 trial_plot.py
