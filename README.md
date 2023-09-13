@@ -31,8 +31,14 @@ The data collection script records participants' data consisting of hand acceler
 
 <p align="center">
   <img src="images/data_H.png" width="350" />
-  <center>                  Figure2. Human study recorded data.</center>
+  <center>Figure2. Human study recorded data.</center>
 </p>
+
+<div align="center">
+  <img src="images/data_H.png" width="350" alt="Your Image Description">
+  <p>Figure2. Human study recorded data.</p>
+</div>
+
 
 Using the visual markers' data, participants' task compeltion time is calculated offline.
 
