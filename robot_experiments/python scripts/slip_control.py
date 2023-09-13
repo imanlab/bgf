@@ -93,24 +93,6 @@ class RobotTest():
 		self.save_results_path    = "/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/031/005"
 
 		self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_trapezoid_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_cubic_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_quintic_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_trapezoid_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_cubic_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_quintic_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_trapezoid_3dof_xyWz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_cubic_3dof_xyWz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_quintic_3dof_xyWz.npy")
-
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_trapezoid_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_cubic_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_quintic_1dof.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_trapezoid_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_cubic_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_quintic_3dof_xyz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_trapezoid_3dof_xyWz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_cubic_3dof_xyWz.npy")
-		# self.robot_actions_pre_calc = np.load("/home/kiyanoush/Cpp_ws/src/robotTest2/data/RT_test/ScienceRobotic/reference_trajectories/robot_data_newpose_quintic_3dof_xyWz.npy")
 
 		rospy.init_node('listener', anonymous=True, disable_signals=True)
 		self.model_predict_001_init()
