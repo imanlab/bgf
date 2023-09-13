@@ -96,6 +96,15 @@ The dependencies for this codebase can be installed in a conda environment:
     pip install -r environment.yaml
 
 
+
+## Dependencies
+
+- **Ubuntu Version:** Ubuntu 20.04 LTS (Focal Fossa) or later
+- **CUDA Version**: 11.7
+- **ROS Version:** ROS Noetic
+- **Pytorch Version:** 1.13.1
+
+
 ## Maintainers
 
 The following individuals are the project maintainers:
