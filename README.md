@@ -1,4 +1,4 @@
-**Bio-inspired Slip Control**
+**Beyond Grip Force: Investigating Trajectory Modulation for Slip Control in Human and Robot Manipulation Tasks**
 ============
 
 This repository provides code for experimentation and analysis of the paper titled "Beyond Grip Force: Investigating Trajectory Modulation for Slip Control in Human and Robot Manipulation Tasks"
