@@ -10,10 +10,12 @@ We provde implementation of the following subset of methods described in the pap
 - Tactile forward model offline training
 
 
-<p align="center">
-  <img src="images/code_struct.png" width="348" />
-  <center>Figure1. Repository content.</center>
-</p>
+
+<div align="center">
+  <img src="images/code_struct.png" width="320" alt="Your Image Description">
+  <p>Figure1. Repository content.</p>
+</div>
+
 
 Figure1. shows the structure of the code content in the repository. The content for human and robotic experiments are shown with green and blue colors respectively.
 
@@ -29,10 +31,6 @@ Detailed instruction for running the code of each part is provided in the [readm
 
 The data collection script records participants' data consisting of hand acceleration and rotation, object acceleration and rotation, tactile sensor normal and shear force data, and visual markers' pose. Figure2 shows the structure of collected data in human participants study.
 
-<p align="center">
-  <img src="images/data_H.png" width="350" />
-  <center>Figure2. Human study recorded data.</center>
-</p>
 
 <div align="center">
   <img src="images/data_H.png" width="350" alt="Your Image Description">
@@ -57,7 +55,7 @@ The /tactile_forward_model directory includes the code for trainig the forward m
 
 Recorded data for traing the forward model is illustrated in Figure3.
 
-<p align="center">
-  <img src="images/robot_data.png" width="350" />
-  <center>Figure2. Robotic experiments recorded data.</center>
-</p>
+<div align="center">
+  <img src="images/robot_data.png" width="350" alt="Your Image Description">
+  <p>Figure3. Robotic experiments recorded data.</p>
+</div>
